@@ -38,4 +38,6 @@ img = qr.make_image(
 img.save("sample.png")
 im = cv2.imread("sample.png")
 cv2.imshow("QRcode", im)
-cv2.waitKey(0)
+# sec = 5
+# cv2.waitKey(sec*1000)
+# cv2.destroyAllWindows()
